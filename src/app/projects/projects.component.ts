@@ -55,6 +55,11 @@ export class ProjectsComponent implements OnInit {
             language:'Angular',
             name:'Favourite Author Tracking',
             description:'Marking fav author'
+        },{
+            html_url: 'https://youtube-demo-web.netlify.app/',
+            language:'React',
+            name:'Youtube Clone',
+            description:'A site looking like youtube'
         },
         )
   }
