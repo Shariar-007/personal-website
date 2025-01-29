@@ -49,7 +49,13 @@ export class ProjectsComponent implements OnInit {
             language:'Java',
             name:'Online Exam Site',
             description:'Anyone can give subject wise online mcq exam'
-        }
+        },
+        {
+            html_url: 'https://author-management.netlify.app/authors',
+            language:'Angular',
+            name:'Favourite Author Tracking',
+            description:'Marking fav author'
+        },
         )
   }
 }
