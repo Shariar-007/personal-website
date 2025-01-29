@@ -4,39 +4,30 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class AboutService {
   private works: InfoField[] = [
-    new InfoField('Junior Engineer (SA)', 'Everis', 'Oct. 2019 - Present', 'https://www.everis.com/spain/es/'),
-    new InfoField('Unity Programmer internship', 'Everis', 'Feb. 2019 - Jul. 2019', 'https://www.everis.com/spain/es/'),
-    new InfoField('Multimedia Programmer', 'Rücker Lypsa', 'Oct. 2017 - Dec. 2017', 'https://www.rueckerlypsa.es/'),
-    new InfoField('Helpdesk IT', 'Wanup', 'July 2017 - Sept. 2017', 'https://www.rueckerlypsa.es/'),
-    new InfoField('Animation internship', 'Campus La Salle', 'Sept. 2016 - May 2017', 'https://www.salleurl.edu/ca'),
-    new InfoField('Sound Technician', 'Casa Orlandai', 'Sept. 2012 - May 2013', 'https://casaorlandai.cat')
+    new InfoField('Software Engineer', 'GIM - Go In Motion', 'Jul. 2022 - Oct. 2023', 'https://gim.com.bd/en/'),
+    new InfoField('Software Engineer', 'CMED Health', 'Jan. 2022 - Jun. 2022', 'https://cmed.com.bd/'),
+    new InfoField('Junior Software Engineer', 'CMED Health', 'Nov. 2019 - Dec. 2021', 'https://cmed.com.bd/'),
+    new InfoField('Intern', 'CMED Health', 'July 2019 - Oct. 2019', 'https://cmed.com.bd/'),
   ];
 
   private education: InfoField[] = [
     new InfoField(
-      'Masters in Advanced Videogame Development',
-      'Campus La Salle',
-      'Oct. 2018 - July 2019',
-      'https://www.salleurl.edu/ca/estudis/master-en-desenvolupament-avancat-de-videojocs'
+      'Masters in Applied Computer Science',
+      'Concordia University, Montreal, Canada',
+      'Sep. 2023 - Apr 2025',
+      'https://www.concordia.ca/academics/graduate/computer-science-mcompsci-applied.html'
     ),
     new InfoField(
-      'Multimedia Engineering Degree',
-      'Campus La Salle',
-      'Sept. 2013 - June 2018',
-      'https://www.salleurl.edu/ca/estudis/grau-en-enginyeria-multimedia-mencio-en-videojocs'
+      'Bachelor of Science in Computer Science and Engineering',
+      'United International University',
+      'Feb. 2015 - Apr 2019',
+      'https://cse.uiu.ac.bd/'
     ),
-    new InfoField(
-      'Sound Technician',
-      'EMAV',
-      'Sept. 2011 - June 2013',
-      'https://www.emav.com/oferta-educativa/cicles-formatius-de-grau-superior/so/'
-    )
   ];
 
   private languages: InfoField[] = [
-    new InfoField('Catalan', 'Bilingual or native competence', ' ', ' '),
-    new InfoField('Spanish', 'Bilingual or native competence', ' ', ' '),
-    new InfoField('English', 'Profesional competence', ' ', ' ')
+    new InfoField('Bangla', 'native competence', ' ', ' '),
+    new InfoField('English', 'Professional competence', ' ', ' ')
   ];
 
   getEducation(): InfoField[] {
