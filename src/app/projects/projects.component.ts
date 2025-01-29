@@ -51,7 +51,7 @@ export class ProjectsComponent implements OnInit {
             description:'Anyone can give subject wise online mcq exam'
         },
         {
-            html_url: 'https://author-management.netlify.app/authors',
+            html_url: 'https://github.com/Shariar-007/manage-authors',
             language:'Angular',
             name:'Favourite Author Tracking',
             description:'Marking fav author'
